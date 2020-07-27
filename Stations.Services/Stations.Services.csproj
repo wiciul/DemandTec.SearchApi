@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\Repository.Ef\Repository.Ef.csproj" />
+    <ProjectReference Include="..\Stations.Services.Abstractions\Stations.Services.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
