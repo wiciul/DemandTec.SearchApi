@@ -5,10 +5,10 @@
 
     public class PageReq
     {
-        [Required, FromQuery]
+        [Required, FromQuery, Range(1, int.MaxValue)]
         public int PageIndex { get; set; }
 
-        [Required, FromQuery]
+        [Required, FromQuery, Range(1, int.MaxValue)]
         public int PageSize { get; set; }
     }
 }
